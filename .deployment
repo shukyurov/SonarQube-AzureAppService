@@ -1,2 +1,2 @@
 [config]
-command = cmd -NoProfile -NoLogo -ExecutionPolicy Unrestricted -Command "& "$pwd\Deploy-SonarQubeAzureAppService.ps1" 2>&1 | echo"
+command = powershell -NoProfile -NoLogo -ExecutionPolicy Unrestricted -Command "& "$pwd\Deploy-SonarQubeAzureAppService.ps1" 2>&1 | echo"
